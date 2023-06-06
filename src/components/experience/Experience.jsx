@@ -4,8 +4,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 const Experience = () => {
     return (
-        <section id="experience">Experience
-            <h5>What Skills I Have</h5>
+        <section id="experience">
             <h2>My Experience</h2>
             <div className="container experience__container">
                 <div className="experience__frontend">
@@ -15,35 +14,30 @@ const Experience = () => {
                             <BsFillPatchCheckFill className=".experience_details-icon" />
                             <div>
                                 <h4>HTML</h4>
-                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon" />
                             <div>
                                 <h4>CSS</h4>
-                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon"/>
                             <div>
                                 <h4>Javascript</h4>
-                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon"/>
                             <div>
-                                <h4>Bootstrap</h4>
-                                <small className="text-light">Experienced</small>
+                                <h4>React js</h4>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon"/>
                             <div>
-                                <h4>React</h4>
-                                <small className="text-light">Intermediate</small>
+                                <h4>Typescript</h4>
                             </div>
                         </article>
                     </div>
@@ -56,35 +50,24 @@ const Experience = () => {
                             <BsFillPatchCheckFill className="experience_details-icon" />
                             <div>
                                 <h4>NodeJs</h4>
-                                <small className="text-light">Experienced</small>
-                            </div>
-                        </article>
-                        <article className="experience_details">
-                            <BsFillPatchCheckFill className="experience_details-icon"  />                
-                        <div>
-                                <h4>MongoGB</h4>
-                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon"/>
                             <div>
                                 <h4>PHP</h4>
-                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon"/>
                             <div>
                                 <h4>MYQSL</h4>
-                                <small className="text-light">Experienced</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillPatchCheckFill className="experience_details-icon" />
                             <div>
                                 <h4>Python</h4>
-                                <small className="text-light">Intermediate</small>
                             </div>
                         </article>
                     </div>

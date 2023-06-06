@@ -5,8 +5,7 @@ import { BsCheck } from 'react-icons/bs'
 const Services = () => {
     return (
         <section id="services">
-            <h5>What i Offer</h5>
-            <h2>Services</h2>
+            <h2>Servicos</h2>
             <div className="container services__container">
                 <article className="service">
                     <div className="service__head">
@@ -15,23 +14,19 @@ const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p> mapas de navegação do usuário</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Testes de usabilidade</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Criação e desenvolvimento</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Fluxo do usuário e de processos</p>
                         </li>
                     </ul>
                 </article>
@@ -44,55 +39,23 @@ const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Criação e integração</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>API</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Administração de banco de dados</p>
                         </li>
                         <li>
                             <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+                            <p>Responsividade</p>
                         </li>
                     </ul>
                 </article>
                 {/*end*/}
-                <article className="service">
-                    <div className="service__head">
-                        <h3>Content Creation</h3>
-                    </div>
-                    <ul className="service__list">
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck className="service__list-icon" />
-                            <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-                        </li>
-                    </ul>
-                </article>
-                {/*enddddddddd */}
             </div>
         </section>
     )

@@ -58,7 +58,6 @@ const data = [
 const Portifolio = () => {
     return (
         <section id="portifolio">
-            <h5>My Recenct Word</h5>
             <h2>Portifolio</h2>
             <div className="container portifolio__container">
                 {
